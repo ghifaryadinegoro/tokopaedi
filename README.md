@@ -1,26 +1,44 @@
-# GC01
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15623347&assignment_repo_type=AssignmentRepo)
 
-## My Social Media App
+# Tokopaedi
 
-My Social Media App adalah sebuah aplikasi client(mobile)-server. Challenge ini juga merupakan salah satu aplikasi mobile pertama dan terakhir kamu, jadi kerjakan dengan baik sebagai bekal portofolio kamu. Pada challenge ini, kamu diminta untuk membuat aplikasi client(mobile)-server dengan detail sebagai berikut:
+## Deployment Link
 
-### Struktur Folder
-- [x] server: untuk menyimpan aplikasi server GraphQL kamu 
-- [X] app: untuk menyimpan aplikasi mobile React Native kamu
+```
+https://tokopaedi-jade.vercel.app/
+```
 
+## Summary
 
-### Fitur
-- [x] Fitur Register
-- [x] Fitur Login
-- [x] FItur Add Post
-- [x] Fitur Show Post (berdasarkan yang paling baru)
-- [x] Fitur Comment Post (Embedded Document)
-- [x] Fitur search user berdasarkan nama atau username
-- [x] Fitur follow
-- [x] Menampilkan Followers dan Following dari setiap user (Reference with $lookup)
-- [x] Fitur Like Post
-- [x] Menampilkan total like dari setiap post
+Tokopaedi is a web application built using Typescript, the NEXT.js framework and the MongoDB database.
 
-### Deployment Link
-- [x] Server: https://mobileapp-server.gdevjs.site/
-- [x] Client: https://expo.dev/preview/update?message=fix%20styling%20%26%20add%20video%20to%20user%20profile&updateRuntimeVersion=1.0.0&createdAt=2024-08-25T18%3A08%3A33.797Z&slug=exp&projectId=037be9f0-f5d2-4a6f-aaa9-b8110cb31f22&group=18e18b6f-abbf-4acf-829e-63fe4ce46760
+### Pages
+
+- [x] Page Register
+- [x] Page Login
+- [x] Page Home
+  - [x] Banner Promo
+  - [x] Detail info Ecommerce
+  - [x] Featured Product (5-10 product) + “see-all”
+- [x] Page Product
+- [x] List Product
+  - [x] Feature Search
+  - [x] Feature Pagination (menggunakan infinite scroll)
+  - [x] Feature Add to wishlist
+- [x] Page Detail Product
+  - [x] Feature Add to wishlist
+  - [x] Implementasi Meta Tag di Head sesuai detail product
+- [x] Page Wishlist Product
+  - [x] List Wishlist
+  - [x] Feature Remove Wishlist
+
+### Feature
+
+- [x] Feature register
+- [x] Feature login
+- [x] Feature show list product
+- [x] Feature show detail product
+- [x] Feature add to wishlist
+- [x] Feature remove wishlist
+- [x] Feature search product berdasarkan nama (implement menerapkan debounce)
+- [x] Feature pagination (implement infinite scroll)
